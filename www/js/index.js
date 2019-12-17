@@ -1,7 +1,12 @@
 var config = {
     type: Phaser.AUTO,
-    width: 800,
-    height: 600,
+    scale: {
+        mode: Phaser.Scale.FIT,
+        parent: 'phaser-example',
+        autoCenter: Phaser.Scale.CENTER_BOTH,
+        width: 1920,
+        height: 1080
+    },
     physics: {
         default: 'arcade',
         arcade: {
@@ -44,4 +49,7 @@ function create ()
     logo.setCollideWorldBounds(true);
 
     emitter.startFollow(logo);
+
+    let canvas = this.sys.canvas;
+    canvas.style.cursor = 'none';
 }
