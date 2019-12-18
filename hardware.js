@@ -15,6 +15,6 @@ parser.on('data', function(line){
 });
 	
 exports.getImpulseControl = function(){
-	console.log(impulse);
+	//console.log(impulse);
 	return impulse;
 }
