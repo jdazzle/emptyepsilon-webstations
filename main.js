@@ -1,4 +1,6 @@
 const { app, BrowserWindow } = require('electron')
+const controls = require('./hardware.js');
+const network = require('./network.js');
 
 function createWindow () {
   // Create the browser window.
