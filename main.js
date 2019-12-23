@@ -22,7 +22,7 @@ function createWindow () {
         }
         default:{
             // and load the index.html of the app.
-            win.loadFile('www/index.html')
+            win.loadFile('www/index.html');
             break;
         }
     }
