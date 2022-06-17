@@ -18,7 +18,7 @@
   },
   "homepage": "https://github.com/jdazzle/emptyepsilon-webstations#readme",
   "devDependencies": {
-    "electron": "^6.1.4",
+    "electron": "^15.5.5",
     "electron-rebuild": "^1.8.8"
   },
   "dependencies": {
